@@ -1,0 +1,65 @@
+:root {
+  font-weight: 400;
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #000000;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+body {
+  min-height: 100vh;
+  background-color: var(--primary-color);
+  color: var(--secondary-color); /* Better contrast for readability */
+}
+
+h1, h2, h3 {
+  /* font-family: 'Playfair Display', serif; */
+}
+
+h1 {
+  font-weight: 600;
+  color: var(--secondary-color); /* Ensures visibility on dark background */
+}
+
+h2 {
+  font-weight: 500;
+  color: #28a745; /* Green tone for emphasis */
+}
+
+h3 {
+  font-weight: 400;
+  color: var(--gray-color); /* Subtle tone for tertiary headings */
+}
+
+button {
+  border-radius: 8px;
+  border: 1px solid transparent;
+  padding: 0.4em 1.2em;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+  background-color: #1a1a1a;
+  color: var(--secondary-color); /* Contrast for buttons */
+  cursor: pointer;
+  transition: border-color 0.25s, background-color 0.25s;
+}
+
+button:hover {
+  border-color: var(--secondary-color);
+  background-color: var(--accent-color); /* Subtle color change on hover */
+}
+
+a {
+  color: var(--accent-color);
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
