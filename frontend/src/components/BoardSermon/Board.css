@@ -1,0 +1,28 @@
+.board{
+    height:30vh;
+    margin-top:10px;
+    background-color:rgb(255, 255, 255);
+    background-size:cover;
+    position:relative;
+}
+.title-board{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap:40px;
+    padding-top:60px;
+    color:black;
+}
+.k{
+    margin-bottom:20px;
+}
+.title-board h1{
+    display: flex;
+    flex-direction: column;
+}
+.title-board h1 hr{
+    width:6rem;
+    height:1px;
+    background-color:black;
+    border:none;
+}

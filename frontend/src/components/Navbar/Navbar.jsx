@@ -44,6 +44,11 @@ const Navbar = () => {
             <Link to="/q&a" onClick={handleLinkClick} 
               className={`a ${menu === 'q&a' ? 'active' : ''}`}>Q&A</Link><hr className="hrr"/>
             </li>
+
+            <li className='menu-option' onClick={() => setMenu('about')}>
+            <Link to="about" onClick={handleLinkClick} 
+              className={`a ${menu === 'about' ? 'active' : ''}`}>About Us</Link><hr className="hrr"/>
+            </li>
   
         </ul>
         </div>
@@ -84,6 +89,11 @@ const Navbar = () => {
               <Link to="/q&a" onClick={handleLinkClick}
                 className={`a ${menu === 'q&a' ? 'active' : ''}`}
                >Q&A</Link><hr className="hrr"/></li>
+
+            <li onClick={() => setMenu('about')}>
+              <Link to="/about" onClick={handleLinkClick}
+                className={`a ${menu === 'about' ? 'active' : ''}`}
+               >About Us</Link><hr className="hrr"/></li>
           </ul>
         </div>
         <button className="onee">

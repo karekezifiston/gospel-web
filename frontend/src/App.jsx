@@ -6,6 +6,7 @@ import Sermons from './components/Pages/Sermons';
 import BibleStudy from './components/Pages/BibleStudy';
 import QA from './components/Pages/QA';
 import Footer from './components/Footer/Footer';
+import About from './components/Pages/About';
 
 const App = () => {
   return (
@@ -16,6 +17,7 @@ const App = () => {
         <Route path='/sermons' element={<Sermons/>} />
         <Route path='/bible-study' element={<BibleStudy/>} />
         <Route path='/q&a' element={<QA/>} />
+        <Route path='/about' element={<About/>} />
       </Routes>
       <Footer/>
       
