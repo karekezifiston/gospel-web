@@ -64,7 +64,6 @@
   .name-link{
     margin-top:1rem;
     display: flex;
-    align-items: center;
     justify-content: space-between;
     width:95%;
   }
@@ -83,7 +82,8 @@
   }
   .img-link{
     height:20px;
-    width:20px;
+    width:17px;
+    transform: rotate(55deg)
   }
   .tooltip-text {
     position: absolute;

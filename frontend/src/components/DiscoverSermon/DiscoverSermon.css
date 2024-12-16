@@ -1,0 +1,16 @@
+.discover-sermon{
+height: 70vh;
+}
+.discover-title{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    padding-top:1rem;
+    margin-left:4vw;
+}
+.discover-title h2{
+    color:white;
+}
+.discover-title hr{
+    width:4rem;
+}

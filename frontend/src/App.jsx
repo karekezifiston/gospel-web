@@ -7,6 +7,7 @@ import BibleStudy from './components/Pages/BibleStudy';
 import QA from './components/Pages/QA';
 import Footer from './components/Footer/Footer';
 import About from './components/Pages/About';
+import PodCast from './components/Pages/PodCast';
 
 const App = () => {
   return (
@@ -14,6 +15,7 @@ const App = () => {
       <Navbar/>
       <Routes>
         <Route path='/' element={<Home/>} />
+        <Route path='/podcast' element={<PodCast/>} />
         <Route path='/sermons' element={<Sermons/>} />
         <Route path='/bible-study' element={<BibleStudy/>} />
         <Route path='/q&a' element={<QA/>} />
