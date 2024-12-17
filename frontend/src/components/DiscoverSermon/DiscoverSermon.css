@@ -1,16 +1,76 @@
-.discover-sermon{
-height: 70vh;
-}
-.discover-title{
+.discover-sermon {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #000;
+    padding:1vw;
+    padding-bottom:5rem;
+    width:100%;
+  }
+  
+  .discover-title {
     display: flex;
     flex-direction: column;
     align-items: start;
-    padding-top:1rem;
-    margin-left:4vw;
-}
-.discover-title h2{
-    color:white;
-}
-.discover-title hr{
-    width:4rem;
-}
+    margin-bottom: 2rem;
+    width: 100%;
+    max-width: 1200px;
+  }
+  
+  .discover-title h2 {
+    color: white;
+  }
+  
+  .discover-title hr {
+    width: 4rem;
+    border: 1px solid white;
+  }
+  
+  .search-bar {
+    margin-top: 1rem;
+    padding: 0.5rem;
+    width: 100%;
+    max-width: 400px;
+    border-radius: 5px;
+    border: none;
+    font-size: 1rem;
+  }
+  
+  .container {
+    display: grid;
+    gap: 1.5rem;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    width: 100%;
+    max-width: 1200px;
+  }
+  
+  .sermon-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    background: #1a1a1a;
+    padding: 1rem;
+    border-radius: 8px;
+    margin-right:1rem;
+  }
+  
+  .sermon-item iframe {
+    width: 100%;
+    aspect-ratio: 16/9;
+    border: none;
+  }
+  
+  .sermon-item h2 {
+    margin-top: 0.5rem;
+    color: white;
+    font-size: 1.1rem;
+  }
+  
+  .no-results {
+    color: white;
+    font-size: 1.2rem;
+    text-align: center;
+  }
+  
