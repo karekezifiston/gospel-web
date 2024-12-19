@@ -17,7 +17,7 @@ const Loading = () => (
   </div>
 );
 
-const MainContent = () => {
+const App = () => {
   const [loading, setLoading] = useState(false);
   const location = useLocation();
 
@@ -67,4 +67,4 @@ const MainContent = () => {
   );
 };
 
-export default MainContent;
+export default App;
