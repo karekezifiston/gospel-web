@@ -59,4 +59,27 @@ a {
   color: var(--accent-color);
   text-decoration: none;
 }
+.waitt {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.waitt .rotatee {
+  width: 50px;
+  height: 50px;
+  place-self: center;
+  border: 3px solid #bdbdbd;
+  border-top-color: rgb(0, 0, 0);
+  border-radius: 50%;
+  animation: rotatee 1s linear infinite;
+}
+
+@keyframes rotatee {
+  100% {
+      transform: rotate(360deg);
+  }
+}
+
 
