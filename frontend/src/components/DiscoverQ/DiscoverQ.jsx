@@ -33,7 +33,7 @@ const DiscoverQ = () => {
     <div>
         <div className="discover-all">
     <div className="discover-title">
-      <h2>Watch Sermon</h2>
+      <h2>Watch Q&A</h2>
       <hr />
       <input
         type="text"

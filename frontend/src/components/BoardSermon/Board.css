@@ -1,5 +1,5 @@
 .board{
-    height:20vh;
+    height:15vh;
     margin-top:10px;
     background-color:rgb(255, 255, 255);
     background-size:cover;
@@ -10,7 +10,7 @@
     align-items: center;
     justify-content: center;
     gap:40px;
-    padding-top:60px;
+    padding-top:50px;
     color:black;
 }
 .k{
@@ -25,4 +25,15 @@
     height:1px;
     background-color:black;
     border:none;
+}
+@media (max-width:636px) and (min-width:0px){
+    .title-board h1{
+        font-size:5.5vw;
+    }
+    .title-board h1 hr{
+        width:17vw;
+        height:1.1px;
+        background-color:black;
+        border:none;
+    }
 }

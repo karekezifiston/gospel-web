@@ -32,7 +32,7 @@ const DiscoverPodcast = () => {
   return (
     <div className="discover-all">
       <div className="discover-title">
-        <h2>Watch Sermon</h2>
+        <h2>Watch Podcast</h2>
         <hr />
         <input
           type="text"

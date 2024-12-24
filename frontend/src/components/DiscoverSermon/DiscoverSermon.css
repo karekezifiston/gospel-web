@@ -73,4 +73,9 @@
     font-size: 1.2rem;
     text-align: center;
   }
+  @media (max-width:636px) and (min-width:0px){
+    .discover-title h2{
+      font-size:4.5vw;
+    }
+  }
   
