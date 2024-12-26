@@ -26,7 +26,7 @@ const Information = () => {
          </div>
          <div className='text-box'>
          <input type='checkbox' name='' id='' />
-         <p className='par-p'>Please keep me updated on new activities, new products or new collections.</p>
+         <p className='par-p'>Please keep me updated on new activities, new sermons or new teachings.</p>
          </div>
          <button type="submit" className="submit">SEND MESSAGE</button>
          </form>
