@@ -8,6 +8,7 @@ import QA from './components/Pages/QA';
 import Footer from './components/Footer/Footer';
 import About from './components/Pages/About';
 import PodCast from './components/Pages/PodCast';
+import Contact from './components/Pages/Contact';
 
 const Loading = () => (
   <div className="waitt">
@@ -59,6 +60,7 @@ const App = () => {
             <Route path="/bible-study" element={<BibleStudy />} />
             <Route path="/q&a" element={<QA />} />
             <Route path="/about" element={<About />} />
+            <Route path="/contact" element={<Contact />} />
           </Routes>
           <Footer />
         </>
