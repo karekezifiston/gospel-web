@@ -45,7 +45,8 @@ const Information = () => {
       <div className='defferent-parts'>
         <div className='talk'>
           <div className='titlee'>
-            <h1>You Can Reach To Us <br />(Appointment)</h1>
+            <h1>You Can Reach To Us </h1><br />
+            <h3>Question or Appointment</h3>
           </div>
           <form onSubmit={handleSubmit}>
             <div className="first">
@@ -90,7 +91,7 @@ const Information = () => {
               <input type='checkbox' className='checkbox' id='' />
               <p className='par-p'>Please keep me updated on new activities, new sermons, or new teachings.</p>
             </div>
-            <button type="submit" className="submit">SEND MESSAGE<img src={send}width={25} alt="" /></button>
+            <button type="submit" className="submit">SEND<img src={send}width={25} alt="" /></button>
           </form>
         </div>
         <div className='second-partt'>

@@ -10,7 +10,7 @@
     font-size:1rem;
     color: rgba(0, 0, 0, 0.51);
     text-align: center;
-    padding-bottom:30px;
+    padding-bottom:40px;
 }
 .last-div{
     padding-top:5rem;
@@ -39,7 +39,7 @@
     justify-content:space-between;
 }
 .talk{
-    margin-left:2vw;
+    margin-left:4vw;
     margin-top:4rem;
     padding-bottom: 3rem;
 }
@@ -298,6 +298,22 @@ input[type="checkbox"] {
     border-width: 0 2px 2px 0;
     transform: rotate(45deg);
   }
-  
+  form .submit {
+    margin-top: 1rem;
+    align-items: center;
+    padding: 5px 10px;
+    font-size: 10px;
+    cursor: pointer;
+    background-color: rgba(0, 0, 0, 0.684);
+    /* border: none; */
+    border-radius: 3px;
+    color: rgb(255, 255, 255);
+    border: solid 1px rgba(0, 0, 0, 0.538);
+    font-weight: bold;
+    transition: all 0.5s ease-in-out;
+}
+.submit img{
+    width:20px;
+}
 
 }
