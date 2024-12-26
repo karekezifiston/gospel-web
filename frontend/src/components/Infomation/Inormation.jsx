@@ -4,11 +4,11 @@ import './Information.css'
 const Information = () => {
   return (
     <div className='information'>
-       <div className='titlee'>
-        <h1>GET IN TOUCH</h1>
-       </div>
        <div className='defferent-parts'>
        <div className='talk'>
+       <div className='titlee'>
+        <h1>You Can Reach To Us <br />(Appointment)</h1>
+       </div>
          <form onSubmit="">
          <div className="first">
          <div className='first-input'>
@@ -25,7 +25,7 @@ const Information = () => {
          <textarea name="userMessage"id='userMessage' value="" rows="6" placeholder=""onChange=""></textarea>
          </div>
          <div className='text-box'>
-         <input type='checkbox' name='' id='' />
+         <input type='checkbox' class='checkbox' id='' />
          <p className='par-p'>Please keep me updated on new activities, new sermons or new teachings.</p>
          </div>
          <button type="submit" className="submit">SEND MESSAGE</button>
@@ -33,7 +33,7 @@ const Information = () => {
          </div>
           <div className='second-partt'>
             <div className='adress'>
-            <h4>STORE ADRESS</h4>
+            <h4>CHURCH ADRESS</h4>
             <p>KN 20 St, Nyarungenge</p>
             <p>Kigali, Rwanda</p>
             </div>
