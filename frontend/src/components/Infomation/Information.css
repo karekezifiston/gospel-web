@@ -1,5 +1,4 @@
 .information{
-    padding-top:6rem;
 }
 .titlee{
     display: flex;
@@ -29,6 +28,8 @@
     color: #414040;
 }
 .defferent-parts{
+    background-color:white;
+    color:black;
     display: flex;
     align-items:center;
     justify-content:space-between;
@@ -46,7 +47,7 @@
 .par-p{
  font-size:17px;
  word-spacing:1px;
- color: #d6d3d3;
+ color: #000000;
 }
 .first-input,.second-input{
     display: flex;
