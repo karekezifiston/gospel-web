@@ -57,7 +57,7 @@ const Navbar = () => {
                 </div>
                 <h3 className="nav_logo"><img src={logo} alt="" /></h3>
                 <div className="menu">
-                <Link className="one-dis" to="/contact"onClick={handleLinkClick}><button >Contact</button></Link>
+                <Link className="one-dis" to="/contact" onClick={() => setMenu('contact')}><button >Contact</button></Link>
                     <ul className='nav-item'>
                         <li onClick={() => setMenu('home')}>
                             <Link to="/" onClick={handleLinkClick} className={`a ${menu === 'home' ? 'active' : ''}`}>Home</Link><hr className="hrr" />
@@ -79,7 +79,7 @@ const Navbar = () => {
                         </li>
                     </ul>
                 </div>
-                <Link to="/contact"onClick={handleLinkClick}><button className="onee">Contact</button></Link>
+                <Link to="/contact" onClick={() => setMenu('contact')}><button className="onee">Contact</button></Link>
             </div>
         </section>
     );
