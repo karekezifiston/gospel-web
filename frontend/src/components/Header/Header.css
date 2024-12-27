@@ -40,7 +40,7 @@
 
 @media (max-width:742px) and (min-width:0px){
     .header{
-        height:50vh;
+        height:80vh;
     }
     .header-contents{
         padding-top:10rem;

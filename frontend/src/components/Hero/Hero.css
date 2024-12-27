@@ -132,6 +132,9 @@
       grid-template-columns: 1fr;
       gap:30px; /* Reduce the gap between the divs */
     }
+    .about_me{
+      font-size:18px;
+    }
   }
   @media (max-width:412px) and (min-width:0px){
     .divs {
@@ -139,6 +142,9 @@
       display: grid;
       grid-template-columns: 1fr;
       gap:30px; /* Reduce the gap between the divs */
+    }
+    .about_me{
+      font-size:18px;
     }
     .div-1,.div-2,.div-3{
       /* padding-top:4rem; */
@@ -172,7 +178,7 @@
   .pr {
       width: 230px;
       color: rgba(255, 255, 255, 0.503);
-      font-size: 17px;
+      font-size: 14px;
   }
   }
   

@@ -91,7 +91,7 @@ const Information = () => {
               <input type='checkbox' className='checkbox' id='' />
               <p className='par-p'>Please keep me updated on new activities, new sermons, or new teachings.</p>
             </div>
-            <button type="submit" className="submit">SEND<img src={send}width={25} alt="" /></button>
+            <button type="submit" className="submit">SEND<img src={send}width={15} alt="" /></button>
           </form>
         </div>
         <div className='second-partt'>

@@ -1,12 +1,14 @@
 .h-container{
     display: flex;
     justify-content: space-around;
-    align-items: center;
     justify-items: center;
-    padding-top:30px;
+    padding-top:40px;
 }
-.nav_logo>img{
-    width:100px;
+.nav_logo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top:-26px;
 }
 .menu-bar-toggle{
   display:none;
@@ -93,6 +95,15 @@ li .hrr{
 .h-wrapper{
   height:8vh;
   width:100vh;
+}
+.nav_logo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 10px;
+  font-style: italic;
+  color: rgba(255, 255, 255, 0.515);
+  margin-top: -15px;
 }
 /* .menu {
   margin-right:0rem;

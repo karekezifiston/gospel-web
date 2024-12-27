@@ -1,13 +1,15 @@
 import React from 'react'
 import './Footer.css'
-import logo from "../../assets/grace.png"
+import logo from "../../assets/grace2.png"
+import logoo from "../../assets/grace.png"
 
 const Footer = () => {
   return (
     <div className='footer' id='footer'>
          <div className="footer-content">
             <div className='footer-content-left'>
-                 <img src={logo} width={200} alt="" />
+            <h3 className="nav_logo"><img src={logo} width={40} alt="" />
+            <img src={logoo} width={70} alt="" /> </h3>
                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente dolorem quae nesciunt eaque non quis? Voluptas, ratione aspernatur nemo aliquam in esse iste corporis deserunt illo, voluptatibus est numquam eligendi!</p>
             </div>
             <div className='footer-content-center'>

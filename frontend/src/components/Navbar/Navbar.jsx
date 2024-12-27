@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from "react";
 import './Navbar.css'
-import logo from "../../assets/grace.png"
+import logo from "../../assets/grace2.png"
+import logoo from "../../assets/grace.png"
 import { Link } from 'react-router-dom';
 
 const Navbar = () => {
@@ -55,7 +56,9 @@ const Navbar = () => {
                         <div className="bar"></div>
                     </button>
                 </div>
-                <h3 className="nav_logo"><img src={logo} alt="" /></h3>
+                <h3 className="nav_logo"><img src={logo} width={40} alt="" />
+                <img src={logoo} width={70} alt="" />
+                </h3>
                 <div className="menu">
                 <Link className="one-dis" to="/contact" onClick={() => setMenu('contact')}><button >Contact</button></Link>
                     <ul className='nav-item'>
