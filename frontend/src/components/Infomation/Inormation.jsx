@@ -22,10 +22,10 @@ const Information = () => {
     e.preventDefault(); // Prevent default form submission
     emailjs
       .send(
-        'YOUR_SERVICE_ID', // Replace with your Service ID
-        'YOUR_TEMPLATE_ID', // Replace with your Template ID
+        'kagabo', // Replace with your Service ID
+        'template_7', // Replace with your Template ID
         formData,
-        'YOUR_PUBLIC_KEY' // Replace with your Public Key
+        'TBSx1znXlRfbKRuCO' // Replace with your Public Key
       )
       .then(
         (result) => {
