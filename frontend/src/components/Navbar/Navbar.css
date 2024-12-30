@@ -6,9 +6,14 @@
 }
 .nav_logo{
     display: flex;
-    flex-direction: column;
     align-items: center;
-    margin-top:-26px;
+    gap:10px;
+    margin-top:-7px;
+    font-size:17px;
+    text-wrap:nowrap;
+    font-weight:bold;
+    font-family: Arial;
+    /* color:rgba(255, 255, 255, 0.716); */
 }
 .menu-bar-toggle{
   display:none;
@@ -98,12 +103,9 @@ li .hrr{
 }
 .nav_logo {
   display: flex;
-  flex-direction: column;
   align-items: center;
-  font-size: 10px;
-  font-style: italic;
-  color: rgba(255, 255, 255, 0.515);
-  margin-top: -15px;
+  font-size: 14px;
+  margin-top: 3px;
 }
 /* .menu {
   margin-right:0rem;
@@ -129,7 +131,7 @@ li .hrr{
   height:8vh;
   z-index:1;
   padding-bottom:2rem;
-  gap:12vw;
+  gap:5vw;
   padding-top:40px;
   padding-left:2vw;
 
