@@ -6,24 +6,10 @@ const DiscoverSermon = () => {
   const sermons = [
     {
       id: 1,
-      title: 'Sermon 1: Faith',
-      url: 'https://www.youtube.com/embed/DKJblcRRR3I?si=lFrxt6lBIMzYtCWB',
+      title: " Igikorwa Cyose kitavuye mu kwizera n'icyaha",
+      url: 'https://www.youtube.com/embed/IDgeKZmjo8A?si=e_4FZ8f99DdJowOU',
     },
-    {
-      id: 2,
-      title: 'Sermon 2: Hope',
-      url: 'https://www.youtube.com/embed/OaHNIG-f3K4?si=W_MD5TRmtXrDcEn2',
-    },
-    {
-      id: 3,
-      title: 'Sermon 3: Love',
-      url: 'https://www.youtube.com/embed/DKJblcRRR3I?si=lFrxt6lBIMzYtCWB',
-    },
-    {
-      id: 4,
-      title: 'Sermon 4: Patience',
-      url: 'https://www.youtube.com/embed/OaHNIG-f3K4?si=W_MD5TRmtXrDcEn2',
-    },
+  
   ];
 
   const filteredSermons = sermons.filter((sermon) =>
