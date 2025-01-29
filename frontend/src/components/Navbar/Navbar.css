@@ -2,13 +2,14 @@
     display: flex;
     justify-content: space-around;
     justify-items: center;
-    padding-top:40px;
+    padding-top:20px;
+    align-items: center;
 }
 .nav_logo{
     display: flex;
     align-items: center;
     gap:10px;
-    margin-top:-7px;
+    margin-top:10px;
     font-size:17px;
     text-wrap:nowrap;
     font-weight:bold;
@@ -37,6 +38,7 @@
     gap: 50px;
     z-index:9999;   
     font-family:Arial;
+    /* margin-top:3px; */
 }
 li{
     list-style-type: none;

@@ -37,9 +37,9 @@ h3 {
   color: var(--gray-color); /* Subtle tone for tertiary headings */
 }
 
-button {
-  border-radius: 8px;
-  border: 1px solid transparent;
+.button {
+  /* border-radius: 8px; */
+  border: 1px solid burlywood;
   padding: 0.4em 1.2em;
   font-size: 1em;
   font-weight: 500;
@@ -50,7 +50,7 @@ button {
   transition: border-color 0.25s, background-color 0.25s;
 }
 
-button:hover {
+.button:hover {
   border-color: var(--secondary-color);
   background-color: var(--accent-color); /* Subtle color change on hover */
 }
