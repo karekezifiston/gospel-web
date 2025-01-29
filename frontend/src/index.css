@@ -16,6 +16,7 @@ body {
   min-height: 100vh;
   background-color: var(--primary-color);
   color: var(--secondary-color); /* Better contrast for readability */
+  
 }
 
 h1, h2, h3 {
